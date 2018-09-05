@@ -1,16 +1,20 @@
 // Include libraries
 #include <stdlib.h> // standard library
+#include <iostream>
+
+
+
 
 // entry point for program
 // every c++ program needs a main() function
 int main()
 {
+	std::cout << "Why hello there =)" << std::endl;
 
 
 
 
-
-	// function that makes the program wait untill a button is pressed to continue
+	// command that makes the function wait untill a button is pressed to continue
 	system("PAUSE");
 
 	// Tell the operating system we are done
